@@ -1,5 +1,21 @@
 {
-    "welcome": "Bienvenido",
-    "profile": "Perfil",
-    "home": "Inicio"
+    "characters": {
+        "title": "Harry Potter characters",
+        "subtitle": "Explore the wizarding world of Harry Potter: a complete list of characters with their house, species, and key details.",
+        "listAriaLabel": "Character list"
+    },
+    "footer": {
+        "legal": "© 2026 Harry Potter App. All rights reserved.",
+        "developedFor": "Developed for: ISIS3710"
+    },
+    "characterDetail": {
+        "labels": {
+            "house": "House",
+            "gender": "Gender",
+            "wandTitle": "Wand information",
+            "wandWood": "Wood",
+            "wandCore": "Core",
+            "wandLength": "Length"
+        }
+    }
 }

@@ -1,9 +1,17 @@
-import Image from 'next/image'
-export default function Footer () {
+export default function Footer({
+    legal,
+    developedFor,
+}: {
+    legal: string
+    developedFor: string
+}) {
     return (
-        <footer> 
-            <div className='flex justify-center'>
-                <p>2026 Harry Potter App. Todos los derechos reservados</p>
+        <footer className="bg-[#BBCCBB]">
+            <div className="mx-auto max-w-5xl px-6 py-2">
+                <div className="flex items-center justify-between text-[10px] text-neutral-800">
+                    <p>{legal}</p>
+                    <p>{developedFor}</p>
+                </div>
             </div>
         </footer>
     )
